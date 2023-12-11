@@ -1,0 +1,23 @@
+.price-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 5%;
+}
+
+.sale-price {
+    color: hsl(158, 36%, 37%);
+    font-family: 'Fraunces', serif;
+    font-size: 2rem;
+    font-weight: 700;
+    display: inline;
+}
+
+.normal-price {
+    font-size: 1rem;
+    text-decoration: line-through;
+    display: inline;
+    padding-bottom: 10px;
+    opacity: 60%;
+}
